@@ -1,11 +1,27 @@
+* {
+    box-sizing: border-box;
+}
 
 
 body {
-    background-color: #4d4f52a5;
+    background-color: #ffffff;
+
 }
 
-section{
-    width: 150;
-    height: 150;
+section {
+    margin: 25px 0px;
+}
 
+.header {
+    padding: 10px;
+    margin: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(243, 214, 219, 0.98);
+    color: black;
+}
+
+.me{
+    margin-bottom: 15px;
+    padding: 50px;
+    background-color:  rgba(243, 214, 219, 0.98);
 }
