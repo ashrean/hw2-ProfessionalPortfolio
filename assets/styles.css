@@ -12,46 +12,89 @@ section {
     margin: 25px 0px;
 }
 
+header h1{
+    font-size: 40px;
+    font-style: oblique;
+}
 .header {
-    padding-top: 15px;
-    margin-bottom: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
     background-color: #ffffff;
     color: black;
-    /* border: 2px solid black; */
+    text-align: center;
+    font-size:medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
 }
 
 .me{
-    margin-top: 80px;
+    margin-top: 0;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color:  #ffffff;
-    border: 2px solid black;
+
 }
 
 
-ul {
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
   }
 
   li {
     float: left;
+
   }
 
   li a {
     display: block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-align: center;
+
   }
 
-  /* Change the link color to #111 (black) on hover */
+
   li a:hover {
     background-color: rgb(242, 220, 220);
     color: black;
+
+  }
+
+.me{
+    border: 2px solid black;
+    text-align: left;
+}
+
+
+
+section.info {
+    margin: 20px;
+    padding: 25px 10px;
+}
+
+  .info{
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px 50px;
+  }
+
+  .contact-icons{
+    color: black;
+    border: 2px solid black;
+    margin: 0 10px;
+    transition: color 0.2s;
+    text-decoration: none;
+
+  }
+
+  .contact-icons:hover{
+    background-color: rgb(242, 220, 220);
+    color:black
   }
