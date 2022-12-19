@@ -81,6 +81,7 @@ nav {
 img {
     height: 20%;
     width: 20%;
+
 }
 
 
@@ -96,22 +97,36 @@ section.info {
     text-align: center;
     margin: 10px 50px;
     padding: 10px 10px;
+
   }
 
   .contact-icons{
     color: black;
     border: 2px solid black;
-    margin: 0 60px;
+    margin: 25px 60px;
     padding: 50px ;
     transition: color 0.2s;
     text-decoration: none;
-
-
-
 
   }
 
   .contact-icons:hover{
     background-color: rgb(242, 220, 220);
-    color:black
+    color:black;
   }
+
+@media only screen and (max-width: 700px) {
+  body {background-color: lightgreen;
+}
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.info p {
+  margin: 50px ;
+}
