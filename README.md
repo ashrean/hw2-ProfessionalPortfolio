@@ -13,12 +13,8 @@
 
 I created a portfolio with sections named "About Me", "Contacts", and Portfolio. The about me section has a short bio on the user (me). Along with the email contacts I added a few social media outlets where I am very much present in. These are also the best way to contact the user. The portfolio section showcases the projects we are
 
-     <section id="projects" class="portfolio">
-                <!-- Add pictures and make it hover so when the mouse
-                goes over it, it tuns oblique  -->
-                <h1> Portfolio </h1>
-                <p>
-                   <img src="https://dummyimage.com/700x700/000000/ffffff.png&text=Project+1+"/>
-                </p>
-                <br>
-                <img src="https://dummyimage.com/600x500/000000/ffffff.png&text=Project+2+"/>
+# Deployed Site
+
+url:[https://ashrean.github.io/hw2-ProfessionalPortfolio/]
+
+#
