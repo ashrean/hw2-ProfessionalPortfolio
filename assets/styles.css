@@ -1,8 +1,9 @@
-/*    box-sizing: border-box;
+:root {
+ box-sizing: border-box;
+ display: flex;
+ flex-wrap: wrap;
+
 }
-* { */
-
-
 body {
     background-color: #ffffff;
 
@@ -37,13 +38,13 @@ header h1{
 }
 
 
-nav {
+#mainNav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
- ul {
+ header ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -108,6 +109,7 @@ section.info {
     transition: color 0.2s;
     text-decoration: none;
 
+
   }
 
   .contact-icons:hover{
@@ -115,8 +117,9 @@ section.info {
     color:black;
   }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 960px) {
   body {background-color: lightgreen;
+    flex: 60%;
 }
 }
 
@@ -129,4 +132,9 @@ section.info {
 
 .info p {
   margin: 50px ;
+}
+
+
+portfolio h1 {
+
 }
