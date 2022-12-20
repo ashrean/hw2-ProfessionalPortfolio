@@ -1,6 +1,7 @@
 
  body {
      background-color: #c9c2c2;
+     margin: 0;
 
  }
 
@@ -143,10 +144,99 @@ nav {
   font-size: x-large;
  }
 
- .projectHeader img{
+ .projectHeader h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
 
-
  }
+
+ .image-grid{
+  --gap: 16px;
+  --num-cols:4;
+  --row-height: 300px;
+
+  box-sizing: border-box;
+  padding: var(--gap);
+
+  display: grid;
+  grid-template-columns: repeat var(--num-cols), 1fr;
+  grid-auto-rows: var(--row-height);
+  gap:var(--gap);
+ }
+
+ ,.image-grid > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ }
+
+@media screen and (max-width:1024px){
+  .image-grid {
+    --num-cols:2
+    --row-height: 200px;
+  }
+}
+
+.image-grid-col-2 {
+  grid-column: span 2;
+}
+
+.image-grid-row-2 {
+  grid-column: span 2;
+}
+
+
+
+
+
+
+
+
+/*
+ div.projects {
+  border: 1px solid #ccc;
+}
+
+div.projectshover {
+  border: 1px solid #777;
+}
+
+div.projects img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.portfolio{
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .portfolio {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .portfolio {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
