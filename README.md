@@ -1,4 +1,4 @@
-# week2-professionalportfoliocfg  l
+
 
 # Description of the project
 
@@ -8,4 +8,4 @@ I created a portfolio with sections named "About Me", "Contacts", and Portfolio.
 
 url:[https://ashrean.github.io/hw2-ProfessionalPortfolio/]
 
-#
+

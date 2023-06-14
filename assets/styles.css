@@ -31,7 +31,18 @@
      padding-bottom: 30px;
      background-color:  #ffffff;
 
+
  }
+
+ .aboutMe{
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color:  #ffffff;
+
+
+}
+
 
 
 nav {
@@ -71,8 +82,9 @@ nav {
 
  .me{
      /* border: 2px solid black; */
-     text-align: left;
+     text-align: center;
      font-size: larger;
+
  }
 
  img {
@@ -114,7 +126,7 @@ nav {
    }
 
  @media screen and (max-width: 960px) {
-   body {background-color: lightgreen;
+   body {background-color: rgb(234, 232, 229);
      flex: 60%;
  }
  }
@@ -204,5 +216,3 @@ div.desc {
   margin: 5px 5px;
   display: inline-block;
 }
-
-
